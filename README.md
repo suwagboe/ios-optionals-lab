@@ -43,7 +43,9 @@ var userOneName: String? = "Anne"
 var userOneAge: Int? = 15
 var userOneHeight: Double? = 70
 ```
-
+```
+print ("Hello \(userOneName) !  You are \(userOneAge) years old and (\(userOneHeight)/ 12)! feet tall")
+```
 b. Given the variables `userTwoName`, `userTwoAge` and `userTwoHeight` below, write code that prints "Hello user!  You are 15 years old and I don't know how tall you are".  Use optional binding
 
 ```swift
