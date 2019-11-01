@@ -39,8 +39,9 @@ a. Given the variables `rectOneWidth` and `rectOneHeight` below, print "The area
 ```swift
 var rectOneWidth: Double? = 5
 var rectOneHeight: Double? = 10
+```
 
-
+```
 var rectOneWidth: Double? = 5
 // this is initializing it to be an optional double
 var rectOneHeight: Double? = 10
@@ -88,6 +89,15 @@ b. Given the variables `userTwoName`, `userTwoAge` and `userTwoHeight` below, wr
 var userTwoName: String? = nil
 var userTwoAge: Int? = 15
 var userTwoHeight: Double? = nil
+```
+```
+
+if let theirheight = userTwoHeight{
+    print("Hello user!!!! You are \(userTwoAge) and you are height is \(theirheight).")
+} else {
+print("Hello user !!!! you are \(userTwoAge) and I do not know how tall you are...")
+}
+
 ```
 
 
